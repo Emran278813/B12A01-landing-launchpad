@@ -122,3 +122,89 @@ body{
 .details{
     font-size:12px;
 }
+
+/* customer-rating */
+.rating-heading{
+    padding:20px;
+    text-align: center;
+}
+.rating-customer{
+    text-align:center;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.box-body{
+    background-color:white;
+    width:366px;
+    height:243px;
+    border-radius: 10px;
+    border:none;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.start{
+    padding: 10px;
+}
+
+.box-heading{
+    padding:10px;
+}
+.box-para{
+    padding:10px;
+}
+.reviewer-details{
+    display:flex;
+    justify-content:last baseline;
+    gap:10px;
+}
+.picture{
+    padding:10px;
+}
+.picture-size{
+    border-radius: 50%;
+    border:none;
+}
+
+/* Upgrade section */
+
+.upgrade-box{
+    background-color: #ffffff;
+    width:1140px;
+    height:650px;
+    margin: 50px auto;
+    border-radius: 15px;
+    border:none;
+    padding: 30px;
+}
+
+.upgrade-details{
+    text-align: center;
+    padding: 20px;
+}
+.upgrade-header{
+    font-size:50px;
+}
+
+.upgrade-para{
+    padding: 20px;
+}
+.upgrade-button{
+    background-color:#4E47FF;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+.upgrade-images{
+    display:flex;
+    justify-content: center;
+}
+.upgrade-image{
+    width:840px;
+    height:365px;
+    border-radius: 20px;
+}
