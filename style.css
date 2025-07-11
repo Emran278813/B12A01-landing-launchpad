@@ -57,3 +57,68 @@ body{
     border:none;
     cursor: pointer;
 }
+
+/* Heading section here */
+
+.explore-items{
+    padding: 30px 40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.explore-heading{
+    font-size: 30px;
+}
+
+.explore-para{
+    padding-bottom: 15px;
+}
+
+.hero1{
+    padding:30px;
+}
+.explore-button{
+    background-color:#4E47FF;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    border:none;
+    cursor: pointer;
+}
+
+.explore-image{
+    width:360px;
+    height:300px;
+    border-radius: 15px;
+    border:none;
+}
+
+/* visitor details */
+.visitor-details{
+    text-align:center;
+    background-color: #dbe0ff;
+    width:1140px;
+    height:200px;
+    margin: 50px auto;
+    border:none;
+    border-radius: 10px;;
+}
+.visitor-heading{
+    padding:20px;
+    font-size: 25px;
+}
+.visitor-parents{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+    padding:15px;
+}
+
+.number{
+    color:#4E47FF;
+    font-size:35px;
+    font-weight: bold;
+}
+.details{
+    font-size:12px;
+}
