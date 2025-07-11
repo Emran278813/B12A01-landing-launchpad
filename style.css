@@ -25,7 +25,7 @@ body{
 .navbar-logo{
     color:#4E47FF;
     font-weight: bold;
-    font-size: 1.2rem;;
+    font-size: 2rem;;
 }
 
 .navbar-button{
@@ -207,4 +207,100 @@ body{
     width:840px;
     height:365px;
     border-radius: 20px;
+}
+
+/* contact-information */
+.contact-info{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+
+.contact-header{
+    font-size: 30px;
+    padding:30px;
+    color:#333;
+}
+
+.contact-box {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #7f8bff;
+  outline: none;
+}
+
+.box-button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #4c5cff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width:100%;
+}
+
+.footer-design{
+    background-color: #ffffff;
+    text-align:center;
+    padding:30px;
+
+}
+
+.footer-heading{
+    color:#4E47FF;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.footer-para{
+    font-size:20px;
+    white-space: normal;
+    text-wrap: wrap;
+}
+
+.footer-design ul{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    font-size:20px;
+}
+.footer-option ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+.footer-option li a{
+    text-decoration: none;
+    color:#333;
 }
