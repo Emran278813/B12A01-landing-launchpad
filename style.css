@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #f5f8ff;
+}
+/* Navbar design */
+
+.navbar-items{
+    background-image: url('Assets/Hero-bg.png');
+}
+.navbar-item{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.navbar-logo{
+    color:#4E47FF;
+}
+
+.navbar-button{
+    background-color:#4E47FF;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+}
+
+/* Heading design */
+
+.heading-info{
+    text-align:center;
+    width:905;
+    height:237px;
+    padding:60px;
+    margin:0 auto;
+    font-size: 35px;
+
+}
+
+.heading-button{
+    background-color:#4E47FF;
+    color:white;
+    padding: 10px;
+    border-radius: 10px; 
+    border:none;
+}
